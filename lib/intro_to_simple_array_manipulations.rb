@@ -43,7 +43,8 @@ array.delete(string)
 end
 
 def using_delete_at(array, integer)
-  array.delete(element)
+  if element == integer
+    array.delete
 end
 
 
